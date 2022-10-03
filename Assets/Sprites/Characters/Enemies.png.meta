@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemies_0
+      name: Enemy 1 - 1
       rect:
         serializedVersion: 2
         x: 23
@@ -125,7 +125,7 @@ TextureImporter:
         width: 93
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_1
+      name: Enemy 1 - 2
       rect:
         serializedVersion: 2
         x: 136
@@ -146,7 +146,7 @@ TextureImporter:
         width: 96
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_2
+      name: Enemy 1 - 3
       rect:
         serializedVersion: 2
         x: 259
@@ -167,7 +167,7 @@ TextureImporter:
         width: 98
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_3
+      name: Enemy 1 - 4
       rect:
         serializedVersion: 2
         x: 385
@@ -188,7 +188,7 @@ TextureImporter:
         width: 96
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_4
+      name: Enemy 1 - 5
       rect:
         serializedVersion: 2
         x: 508
@@ -209,7 +209,7 @@ TextureImporter:
         width: 94
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_5
+      name: Enemy 1 - 6
       rect:
         serializedVersion: 2
         x: 623
@@ -230,7 +230,7 @@ TextureImporter:
         width: 97
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_6
+      name: Enemy 1 - 7
       rect:
         serializedVersion: 2
         x: 738
@@ -251,7 +251,7 @@ TextureImporter:
         width: 97
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_7
+      name: Enemy 2 - 1
       rect:
         serializedVersion: 2
         x: 20
@@ -272,7 +272,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_8
+      name: Enemy 2 - 2
       rect:
         serializedVersion: 2
         x: 177
@@ -293,7 +293,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_9
+      name: Enemy 2 - 3
       rect:
         serializedVersion: 2
         x: 353
@@ -314,7 +314,7 @@ TextureImporter:
         width: 130
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_10
+      name: Enemy 2 - 4
       rect:
         serializedVersion: 2
         x: 518
@@ -335,7 +335,7 @@ TextureImporter:
         width: 130
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_11
+      name: Enemy 2 - 5
       rect:
         serializedVersion: 2
         x: 680
@@ -356,7 +356,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_12
+      name: Enemy 2 - 6
       rect:
         serializedVersion: 2
         x: 834
@@ -377,7 +377,7 @@ TextureImporter:
         width: 135
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_13
+      name: Enemy 2 - 7
       rect:
         serializedVersion: 2
         x: 1015
@@ -398,7 +398,7 @@ TextureImporter:
         width: 136
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,7 +411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_14
+      name: Enemy 3 - 1
       rect:
         serializedVersion: 2
         x: 23
@@ -419,7 +419,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_15
+      name: Enemy 3 - 2
       rect:
         serializedVersion: 2
         x: 180
@@ -440,7 +440,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_16
+      name: Enemy 3 - 3
       rect:
         serializedVersion: 2
         x: 357
@@ -461,7 +461,7 @@ TextureImporter:
         width: 129
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_17
+      name: Enemy 3 - 4
       rect:
         serializedVersion: 2
         x: 522
@@ -482,7 +482,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_18
+      name: Enemy 3 - 5
       rect:
         serializedVersion: 2
         x: 683
@@ -503,7 +503,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_19
+      name: Enemy 3 - 6
       rect:
         serializedVersion: 2
         x: 837
@@ -524,7 +524,7 @@ TextureImporter:
         width: 136
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_20
+      name: Enemy 3 - 7
       rect:
         serializedVersion: 2
         x: 1019
@@ -545,7 +545,7 @@ TextureImporter:
         width: 135
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,27 +568,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemies_2: 289400344
-      Enemies_3: -150027283
-      Enemies_16: 1848609965
-      Enemies_18: 1659303340
-      Enemies_10: -360705772
-      Enemies_19: -1686697511
-      Enemies_4: 1787334547
-      Enemies_20: -2085670571
-      Enemies_1: 726769298
-      Enemies_0: -937044922
-      Enemies_5: 119751855
-      Enemies_15: -1446795200
-      Enemies_12: -105979694
-      Enemies_9: 1187400798
-      Enemies_11: -1958302590
-      Enemies_6: -1250910496
-      Enemies_17: -1363266055
-      Enemies_7: -1071661783
-      Enemies_14: -1078169885
-      Enemies_8: -909208217
-      Enemies_13: 1761123280
+      Enemy 2 - 1: -1071661783
+      Enemy 1 - 7: -1250910496
+      Enemy 2 - 4: -360705772
+      Enemy 1 - 2: 726769298
+      Enemy 3 - 3: 1848609965
+      Enemy 3 - 2: -1446795200
+      Enemy 2 - 2: -909208217
+      Enemy 3 - 6: -1686697511
+      Enemy 1 - 1: -937044922
+      Enemy 2 - 7: 1761123280
+      Enemy 3 - 5: 1659303340
+      Enemy 3 - 7: -2085670571
+      Enemy 3 - 4: -1363266055
+      Enemy 2 - 5: -1958302590
+      Enemy 2 - 6: -105979694
+      Enemy 2 - 3: 1187400798
+      Enemy 1 - 6: 119751855
+      Enemy 1 - 4: -150027283
+      Enemy 3 - 1: -1078169885
+      Enemy 1 - 5: 1787334547
+      Enemy 1 - 3: 289400344
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
