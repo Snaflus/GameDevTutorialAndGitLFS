@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -9,12 +10,15 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float jumpForce = 11f;
 
+    private bool isGrounded;
+    private string GROUND_TAG = "Ground"; //tag for the ground
+    
     private float movementX;
     private Rigidbody2D myBody;
     private SpriteRenderer spriteRenderer;
     private Animator myAnimator;
 
-    private string WALK_ANIMATION = "Walk";
+    private string WALK_ANIMATION = "Walk"; //name of the boolean defined in animator
 
     private void Awake()
     {
@@ -26,13 +30,20 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMove();
+        AnimatePlayer();
+        PlayerJump();
+    }
+
+    void FixedUpdate()
+    {
+        
     }
 
     void PlayerMove()
@@ -40,5 +51,40 @@ public class Player : MonoBehaviour
         movementX = Input.GetAxisRaw("Horizontal");
 
         transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * moveForce;
+    }
+
+    void PlayerJump()
+    {
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            isGrounded = false;
+            myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(GROUND_TAG))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void AnimatePlayer()
+    {
+        if (movementX > 0)
+        {
+            myAnimator.SetBool(WALK_ANIMATION, true);
+            spriteRenderer.flipX = false;
+        }
+        else if (movementX < 0)
+        {
+            myAnimator.SetBool(WALK_ANIMATION, true);
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            myAnimator.SetBool(WALK_ANIMATION, false);
+        }
     }
 }
