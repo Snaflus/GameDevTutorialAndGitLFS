@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
     private string WALK_ANIMATION = "Walk"; //name of the boolean defined in animator
 
+    private string ENEMY_TAG = "Enemy";
+
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -62,12 +64,23 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision) //solution uses collision
     {
         if (collision.gameObject.CompareTag(GROUND_TAG))
         {
             isGrounded = true;
         }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision) //solution uses IsTrigger tag on Collider2D
+    {
+        if (collision.CompareTag(ENEMY_TAG))
+            Destroy(gameObject);
     }
 
     void AnimatePlayer()
