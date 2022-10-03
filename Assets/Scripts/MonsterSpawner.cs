@@ -24,7 +24,7 @@ public class MonsterSpawner : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(1, 5));
 
             randomIndex = Random.Range(0, monsterReference.Length);
-            randomSide = Random.Range(0, 1);
+            randomSide = Random.Range(0, 2);
 
             spawnedMonster = Instantiate(monsterReference[randomIndex]);
 
